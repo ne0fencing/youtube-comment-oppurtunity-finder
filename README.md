@@ -13,3 +13,6 @@ An AI-powered agent that monitors YouTube channels, cleans comment data using th
 1. **Fundamentals:** Built the reasoning loop (Perception -> Reasoning -> Action).
 2. **Data Prep:** Implemented hashing-based deduplication and noise filtering.
 3. **Application:** Integrated with Relay.app for automated notifications.
+To make the agent functional, I integrated the pipeline with Relay.app.
+- **Workflow:** Python -> Google Sheets -> Relay.app -> Gmail.
+- **Human-in-the-loop:** The agent drafts replies but waits for my approval via email before finalizing.
